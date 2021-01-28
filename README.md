@@ -166,14 +166,9 @@ Support this project by becoming a sponsor. Your logo will show up here with a l
 <a href="https://opencollective.com/webdrivermanager/sponsor/1/website" target="_blank"><img src="https://opencollective.com/webdrivermanager/sponsor/1/avatar.svg"></a>
 
 
-## Survey
-
-Please answer the following [survey] based on your experience with WebDriverManager. It would not take more than 5 minutes to complete the survey, and you will be helping a lot to improve this project. Thanks a lot in advance for your cooperation!
-
-
 ## About
 
-WebDriverManager (Copyright &copy; 2015-2020) is a project created and maintained by [Boni Garcia] licensed under [Apache 2.0 License].
+WebDriverManager (Copyright &copy; 2015-2021) is a project created and maintained by [Boni Garcia] licensed under [Apache 2.0 License].
 
 [Apache 2.0 License]: http://www.apache.org/licenses/LICENSE-2.0
 [Boni Garcia]: http://bonigarcia.github.io/
@@ -181,4 +176,3 @@ WebDriverManager (Copyright &copy; 2015-2020) is a project created and maintaine
 [WebDriverManager]:https://github.com/bonigarcia/webdrivermanager/
 [Logo]: http://bonigarcia.github.io/img/webdrivermanager.png
 [GitHub Repository]: https://github.com/bonigarcia/wdm-agent-example
-[survey]: http://tiny.cc/wdm-survey
