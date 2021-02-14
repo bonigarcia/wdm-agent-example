@@ -1,4 +1,5 @@
 [![Maven Central](https://img.shields.io/maven-central/v/io.github.bonigarcia/webdrivermanager.svg)](http://search.maven.org/#search%7Cga%7C1%7Cg%3Aio.github.bonigarcia%20a%3Awebdrivermanager)
+[![Build Status](https://github.com/bonigarcia/wdm-agent-example/workflows/build/badge.svg)](https://github.com/bonigarcia/wdm-agent-example/actions)
 [![badge-jdk](https://img.shields.io/badge/jdk-8-green.svg)](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 [![License badge](https://img.shields.io/badge/license-Apache2-green.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 [![Backers on Open Collective](https://opencollective.com/webdrivermanager/backers/badge.svg)](#backers)
@@ -8,7 +9,7 @@
 
 # WebDriverManager Agent Example [![][Logo]][GitHub Repository]
 
-This repository contains a Maven repository with examples to automate the [Selenium Webdriver] binaries management using [WebDriverManager] as **Agent**. This repository is open source, released under the terms of [Apache 2.0 License].
+This repository contains a Maven repository with examples to automate the [Selenium WebDriver] binaries management using [WebDriverManager] as **Agent**. This repository is open source, released under the terms of [Apache 2.0 License].
 
 ## Usage
 
@@ -172,7 +173,7 @@ WebDriverManager (Copyright &copy; 2015-2021) is a project created and maintaine
 
 [Apache 2.0 License]: http://www.apache.org/licenses/LICENSE-2.0
 [Boni Garcia]: http://bonigarcia.github.io/
-[Selenium Webdriver]: http://docs.seleniumhq.org/projects/webdriver/
+[Selenium WebDriver]: http://docs.seleniumhq.org/projects/webdriver/
 [WebDriverManager]:https://github.com/bonigarcia/webdrivermanager/
 [Logo]: http://bonigarcia.github.io/img/webdrivermanager.png
 [GitHub Repository]: https://github.com/bonigarcia/wdm-agent-example

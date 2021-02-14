@@ -5,7 +5,7 @@
 
     <groupId>io.github.bonigarcia</groupId>
     <artifactId>wdm-agent-example</artifactId>
-    <version>4.0.0</version>
+    <version>1.0.0</version>
 
     <properties>
         <slf4j.version>1.7.30</slf4j.version>
