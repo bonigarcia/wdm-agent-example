@@ -177,3 +177,4 @@ WebDriverManager (Copyright &copy; 2015-2021) is a project created and maintaine
 [WebDriverManager]:https://github.com/bonigarcia/webdrivermanager/
 [Logo]: http://bonigarcia.github.io/img/webdrivermanager.png
 [GitHub Repository]: https://github.com/bonigarcia/wdm-agent-example
+[Stack Overflow]: https://stackoverflow.com/questions/tagged/webdrivermanager-java
