@@ -13,7 +13,7 @@
         <logback.version>1.2.3</logback.version>
         <junit.version>4.13.2</junit.version>
         <selenium-java.version>3.141.59</selenium-java.version>
-        <wdm.version>4.3.1</wdm.version>
+        <wdm.version>4.4.0</wdm.version>
 
         <maven-surefire-plugin.version>2.22.2</maven-surefire-plugin.version>
         <maven-dependency-plugin.version>3.1.2</maven-dependency-plugin.version>
