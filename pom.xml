@@ -13,12 +13,12 @@
         <logback.version>1.2.4-groovyless</logback.version>
         <junit.version>4.13.2</junit.version>
         <selenium-java.version>3.141.59</selenium-java.version>
-        <wdm.version>4.4.3</wdm.version>
+        <wdm.version>5.0.0-SNAPSHOT</wdm.version>
 
         <maven-surefire-plugin.version>2.22.2</maven-surefire-plugin.version>
         <maven-dependency-plugin.version>3.2.0</maven-dependency-plugin.version>
 
-        <java.version>1.8</java.version>
+        <java.version>11</java.version>
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <maven.compiler.source>${java.version}</maven.compiler.source>
 
@@ -85,5 +85,18 @@
             </plugin>
         </plugins>
     </build>
+
+    <repositories>
+        <repository>
+            <id>oss.sonatype.org-snapshot</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
 
 </project>
