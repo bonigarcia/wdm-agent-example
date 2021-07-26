@@ -54,9 +54,9 @@ Then, the Java agent (``-javaagent``) is configured using the two Maven plugins:
     </build>
 ```
 
-When the Maven tests are executed (``mvn test``), WebDriverManager Agent will check the objects being created in the JVM. Just before Selenium WebDriver objects are instantiated in the tests (``org.openqa.selenium.chrome.ChromeDriver``, ``org.openqa.selenium.firefox.FirefoxDriver``, ``org.openqa.selenium.opera.OperaDriver``, ``org.openqa.selenium.edge.EdgeDriver``, ``org.openqa.selenium.phantomjs.PhantomJSDriver``, or ``org.openqa.selenium.ie.InternetExplorerDriver``), the proper WebDriverManager setup call is executed to manage the required driver (*chromedriver*, *geckodriver*, *msedgedriver*, etc).  
+When the Maven tests are executed (``mvn test``), WebDriverManager Agent will check the objects being created in the JVM. Just before Selenium WebDriver objects are instantiated in the tests (``org.openqa.selenium.chrome.ChromeDriver``, ``org.openqa.selenium.firefox.FirefoxDriver``, ``org.openqa.selenium.opera.OperaDriver``, ``org.openqa.selenium.edge.EdgeDriver``, or ``org.openqa.selenium.ie.InternetExplorerDriver``), the proper WebDriverManager setup call is executed to manage the required driver (*chromedriver*, *geckodriver*, *msedgedriver*, etc).  
 
-The tests contained in this project are the following (notice there a no setup for *chromedriver* nor *geckodriver*).
+The tests contained in this project are the following (notice there is no setup for *chromedriver* nor *geckodriver*).
 
 ```java
 public class ChromeTest {
