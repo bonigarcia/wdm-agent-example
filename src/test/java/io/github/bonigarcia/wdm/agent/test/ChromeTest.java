@@ -17,42 +17,39 @@
 package io.github.bonigarcia.wdm.agent.test;
 
 import static java.lang.invoke.MethodHandles.lookup;
-import static org.hamcrest.CoreMatchers.containsString;
-import static org.hamcrest.MatcherAssert.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 import static org.slf4j.LoggerFactory.getLogger;
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.slf4j.Logger;
 
-public class ChromeTest {
+class ChromeTest {
 
     static final Logger log = getLogger(lookup().lookupClass());
 
-    private WebDriver driver;
+    WebDriver driver;
 
-    @Before
-    public void setup() {
+    @BeforeEach
+    void setup() {
         driver = new ChromeDriver();
     }
 
-    @After
-    public void teardown() {
-        if (driver != null) {
-            driver.quit();
-        }
+    @AfterEach
+    void teardown() {
+        driver.quit();
     }
 
     @Test
-    public void test() {
-        String sutUrl = "https://bonigarcia.github.io/selenium-jupiter/";
+    void test() {
+        String sutUrl = "https://bonigarcia.org/webdrivermanager/";
         driver.get(sutUrl);
         String title = driver.getTitle();
         log.debug("The title of {} is {}", sutUrl, title);
-        assertThat(title, containsString("JUnit 5 extension for Selenium"));
+        assertThat(title).contains("WebDriverManager");
     }
 
 }
