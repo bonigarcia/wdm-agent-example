@@ -59,51 +59,46 @@ When the Maven tests are executed (``mvn test``), WebDriverManager Agent will ch
 The tests contained in this project are the following (notice there is no setup for *chromedriver* nor *geckodriver*).
 
 ```java
-public class ChromeTest {
+class ChromeTest {
 
-    private WebDriver driver;
+    WebDriver driver;
 
-
-    @Before
-    public void setupTest() {
+    @BeforeEach
+    void setupTest() {
         driver = new ChromeDriver();
     }
 
-    @After
-    public void teardown() {
-        if (driver != null) {
-            driver.quit();
-        }
+    @AfterEach
+    void teardown() {
+        driver.quit();
     }
 
     @Test
-    public void test() {
-        // Test logic
+    void test() {
+        // Your test code here
     }
 
 }
 ```
 
 ```java
-public class FirefoxTest {
+class FirefoxTest {
 
-    private WebDriver driver;
+    WebDriver driver;
 
-    @Before
-    public void setupTest() {
+    @BeforeEach
+    void setupTest() {
         driver = new FirefoxDriver();
     }
 
-    @After
-    public void teardown() {
-        if (driver != null) {
-            driver.quit();
-        }
+    @AfterEach
+    void teardown() {
+        driver.quit();
     }
 
     @Test
-    public void test() {
-        // Test logic
+    void test() {
+        // Your test code here
     }
 
 }
