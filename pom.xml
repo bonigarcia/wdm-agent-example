@@ -16,7 +16,7 @@
         <selenium-java.version>4.16.1</selenium-java.version>
         <wdm.version>5.6.2</wdm.version>
 
-        <maven-surefire-plugin.version>3.2.2</maven-surefire-plugin.version>
+        <maven-surefire-plugin.version>3.2.3</maven-surefire-plugin.version>
         <maven-dependency-plugin.version>3.6.1</maven-dependency-plugin.version>
 
         <java.version>1.8</java.version>
