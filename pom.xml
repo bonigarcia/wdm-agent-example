@@ -17,7 +17,7 @@
         <wdm.version>6.3.3</wdm.version>
 
         <maven-surefire-plugin.version>3.5.4</maven-surefire-plugin.version>
-        <maven-dependency-plugin.version>3.9.0</maven-dependency-plugin.version>
+        <maven-dependency-plugin.version>3.10.0</maven-dependency-plugin.version>
 
         <java.version>1.8</java.version>
         <maven.compiler.target>${java.version}</maven.compiler.target>
